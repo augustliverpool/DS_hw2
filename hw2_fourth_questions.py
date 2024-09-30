@@ -3,7 +3,7 @@ import numpy as np
 df=pd.read_csv("C:/Users/august/Downloads/covid.csv")
 print(df.describe())
 print(df.info)
-print(list(df.iloc[:
+print(list(df.iloc[:,0])
 numbers=[500,1000,5000]
 def death_rate(data, numbers):
     for n in numbers:
